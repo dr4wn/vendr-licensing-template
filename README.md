@@ -5,7 +5,7 @@
 [Roblox/lua-style-guide](https://roblox.github.io/lua-style-guide/) |
 [LuaRocks/lua-style-guide](https://github.com/luarocks/lua-style-guide)
 
-[main](./main/MainModule.lua)  **or** [experimental](./experimental/MainModule.lua)
+[main](./stable/MainModule.lua)  **or** [experimental](./experimental/MainModule.lua)
 
 ## Features
 	- main
