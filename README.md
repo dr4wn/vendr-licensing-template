@@ -24,7 +24,7 @@ This is for you to use in your products, and setup is pretty trivial, but just a
 
 Obfuscations do not support any [Lua-U](https://github.com/Roblox/luau) features! This includes any type checking shown below in the examples.
 
-If you are following the _experimental_ release, then setting up a file on an accessible web-server is recommended for the ability to display modals to customers. The .json file to display modals to users is available [here](./status_demo.json). Uploading & configuring thisto a website and replacing the `statusLink` variable in [MainModule.lua](./experimental/MainModule.lua#L9) to your server of choice will ensure your whitelist is running properly. If you do not want this, fall back to [stable](./stable/MainModule.lua).
+If you are following the _experimental_ release, then setting up a file on an accessible web-server is recommended for the ability to display modals to customers. The .json file to display modals to users is available [here](./demo/status_demo.json). Uploading & configuring thisto a website and replacing the `statusLink` variable in [MainModule.lua](./experimental/MainModule.lua#L9) to your server of choice will ensure your whitelist is running properly. If you do not want this, fall back to [stable](./stable/MainModule.lua).
 
 ## Example Usage (Stable):
 
@@ -70,8 +70,14 @@ if not response.licenseInfo.licensed then
 	return
 end
 ```
+## Author 
+
+**vendr-licensing-template** © [dr4wn](https://github.com/dr4wn).  
+Authored and maintained by dr4wn.
 
 ## License (MIT)
+
+
 
 View it [here](https://opensource.org/license/mit/).
 
