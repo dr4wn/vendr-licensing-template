@@ -29,7 +29,7 @@ If you are following the _experimental_ release, then setting up a file on an ac
 ## Example Usage (Stable):
 
 ```lua
-local whitelist = require(1293030)
+local whitelist = require(1)
 local placeId: number = game.PlaceId
 local hubId: number = 1
 local productName: string = "example"
@@ -45,7 +45,7 @@ end
 ## Example Usage (Experimental):
 
 ```lua
-local whitelist = require(1293030)
+local whitelist = require(1)
 local placeId: number = game.PlaceId
 local hubId: number = 1
 local productName: string = "example"
@@ -76,8 +76,6 @@ end
 Authored and maintained by dr4wn.
 
 ## License (MIT)
-
-
 
 View it [here](https://opensource.org/license/mit/).
 
