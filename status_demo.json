@@ -1,0 +1,12 @@
+{
+	"ModalEnabled": false,
+	"ClosingModal": false,
+
+	"Icon": "alert",
+	"Title": "Modal Title",
+	"Message": "demo.",
+	"Hint": "demo", 
+
+	"FooterText": "default",
+	"FooterLink": "default"
+}
