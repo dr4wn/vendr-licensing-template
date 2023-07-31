@@ -29,7 +29,11 @@ If you are following the _experimental_ release, then setting up a file on an ac
 ## Example Usage (Stable):
 
 ```lua
-local whitelist = require(1)
+local whitelist: table = require(14256432357)
+```
+
+```lua
+local whitelist = require(14256432357)
 local placeId: number = game.PlaceId
 local hubId: number = 1
 local productName: string = "example"
@@ -43,9 +47,14 @@ end
 ```
 
 ## Example Usage (Experimental):
+⚠️ Does not function since it cannot obtain a valid URL to parse data through! If you want interactive modals, please copy the experimental file and make changes yourself.
+```lua
+local whitelist = require(14256427992)
+```
+
 
 ```lua
-local whitelist = require(1)
+local whitelist = require(14256427992)
 local placeId: number = game.PlaceId
 local hubId: number = 1
 local productName: string = "example"
