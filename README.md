@@ -1,5 +1,7 @@
 # vendr-whitelisting-template
 
+open-sourced this on my own accord, this was not planned by anyone but me ##wtmgtd
+
 ### Issues and Pull Requests are more than welcome, but please abide by correct styling (Unsure whether I abide by it myself, but improvements are welcome.)
 
 [Roblox/lua-style-guide](https://roblox.github.io/lua-style-guide/) |
