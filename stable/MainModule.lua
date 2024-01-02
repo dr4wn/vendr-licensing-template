@@ -19,7 +19,7 @@ function module.getLicense(arguments)
 
 	if not (place and hubId and productName) then return defaultRejection end
 	assert(type(place) == "number", "\"place\" was not a number")
-	assert(type(hubId) == "number", "\"hubId\" was not a number")
+	assert(type(hubId) == "string", "\"hubId\" was not a string")
 	assert(type(productName) == "string", "\"productName\" was not a string")
 
 	local placeInfo = MarketplaceService:GetProductInfo(place)
