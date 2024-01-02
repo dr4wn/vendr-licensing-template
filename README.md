@@ -40,7 +40,7 @@ local placeId: number = game.PlaceId
 local hubId: number = 1
 local productName: string = "example"
 
-local response: table = whitelist.getLicense(placeId, hubId, productName)
+local response: table = whitelist.getLicense({placeId, hubId, productName})
 
 if not response.licenseInfo.licensed then
 	-- handle whitelist rejections here
@@ -61,7 +61,7 @@ local placeId: number = game.PlaceId
 local hubId: number = 1
 local productName: string = "example"
 
-local response: table = whitelist.getLicense(placeId, hubId, productName)
+local response: table = whitelist.getLicense({placeId, hubId, productName})
 
 local modal = {
 	closable = response.modalInfo.closable,
