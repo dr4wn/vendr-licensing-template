@@ -85,7 +85,7 @@ function module.getLicense(arguments)
 
 	if not place or hubId or productName then return defaultRejection end
 	assert(type(place) == "number", "\"place\" was not a number")
-	assert(type(hubId) == "number", "\"hubId\" was not a number")
+	assert(type(hubId) == "string", "\"hubId\" was not a string")
 	assert(type(productName) == "string", "\"productName\" was not a string")
 
 	if placeInfo.Creator.CreatorType == "Group" then
